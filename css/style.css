@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+/* high resolution desktops */
+
+header{
+	width: 100%;
+	height: 150px;
+	background: #00aeff;
+}
+
+.header-container{
+	display: flex;
+	max-width: 1240px;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 1.3em 0;
+}
+
+#logo {
+	background: #009bdd;
+}
+
+#search{
+	background: #36c3ff;
+}
+
+.flex-item{
+	width: 30%;
+	height: 80px;
+	margin-top:1em;
+}
+
+.container{
+	display: flex;
+	margin: 0 auto;
+	max-width: 1240px;
+}
+
+aside{
+	width: 23%;
+	background: #ff5607;
+	padding: 1.3em;
+}
+
+ul{
+	margin: 0 auto;
+}
+
+
+.top-nav li{
+	background: #e84900;
+	margin-bottom: 2em;
+	height: 50px;
+}
+
+section{
+	width: 77%;
+	float: left;
+	overflow: hidden;
+	margin-top: 1.5em;
+	margin-left: 1em;
+}
+
+.picture{
+	width: 40%;
+	height: 280px;
+	background: #ffbd00;
+	float: left;
+	margin: 0 3em 1em 0;
+}
+
+.text-box{
+	padding-right: 1em;
+}
+
+.text{
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+
+.string{
+	height: 25px;
+	background: #d5d5d5;
+}
+
+.h1{
+	height: 30px;
+	background: #9d9d9d; 
+}
+
+footer{
+	background-color: #00d169;
+    justify-content: center;
+    display: flex;
+}
+
+.bottom-nav{
+	background: #02a554;
+	width: 15%;
+	padding: 1.5em;
+	margin: 1em;
+}
+
+.bottom-nav li{
+	background: #038042;
+	height: 25px;
+	margin-bottom: 0.7em;
+}
+
+
+
+/* For mobile phones: */
+@media screen and (max-width: 375px){
+
+header{
+	height: 117px;
+	padding: 0 1em;}
+
+.header-container{
+	flex-direction: column;
+	padding: 0 0 0 2em;}
+
+.flex-item{
+	height: 35px;
+	width: 90%; }
+
+.container{
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+nav ul{
+	display: flex;}
+
+nav li{
+    margin-right: 1em;
+    margin-bottom: 0;
+    width:30%;}
+
+.top-nav li{
+	margin-bottom: 1.5em;
+}
+
+.display-none{
+	display: none;}
+
+aside{
+	flex-basis: 100%;
+	padding-bottom: 0;}
+
+section{
+	width: 100%;
+	margin: 0;}
+
+.picture{
+	width: 100%;
+	height: 210px;}
+
+.text-box{
+	padding-left: 1em;}
+
+.string{
+	height: 15px;}
+
+.h1{
+	height: 25px;
+	width: 100%}
+
+footer{
+	flex-direction: column;}
+
+.bottom-nav{
+	width: 90%;
+	padding: 1em;}
+
+.bottom-nav li{
+margin: 0;}
+}
+
