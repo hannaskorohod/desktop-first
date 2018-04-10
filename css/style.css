@@ -12,7 +12,7 @@ header{
 
 .header-container{
 	display: flex;
-	max-width: 1240px;
+	max-width: 1280px;
 	justify-content: space-between;
 	margin: 0 auto;
 	padding: 1.3em 0;
@@ -28,14 +28,14 @@ header{
 
 .flex-item{
 	width: 30%;
-	height: 80px;
+	padding: 2.5em 0;
 	margin-top:1em;
 }
 
 .container{
 	display: flex;
 	margin: 0 auto;
-	max-width: 1240px;
+	max-width: 1280px;
 }
 
 aside{
@@ -110,6 +110,15 @@ footer{
 }
 
 
+@media screen and (min-width: 1440px){
+
+footer{
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+}
+
+}
 
 /* For mobile phones: */
 @media screen and (max-width: 375px){
@@ -123,7 +132,7 @@ header{
 	padding: 0 0 0 2em;}
 
 .flex-item{
-	height: 35px;
+	padding: 1em 0;
 	width: 90%; }
 
 .container{
